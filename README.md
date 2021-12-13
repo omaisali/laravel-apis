@@ -1,2 +1,2 @@
 # laravel-apis
-Larave apis project with Pusher notifications
+Laravel apis project with Pusher notifications
