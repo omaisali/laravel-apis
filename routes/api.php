@@ -19,3 +19,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 Route::get('fetch_all_offers',  [ApiController::class, 'fetchAllOffers']);
 Route::get('fetch_offers',  [ApiController::class, 'fetchOffers']);
+Route::get('accept_bid',  [ApiController::class, 'acceptBid']);
+Route::get('offer_rate',  [ApiController::class, 'offerRate']);
